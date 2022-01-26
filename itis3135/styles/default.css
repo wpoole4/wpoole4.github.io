@@ -8,6 +8,8 @@ body
 header
 {
   font-family: Impact, serif;
+  outline-color:black;
+  outline-width: 4px;
   text-align: center;
   color: #ffd000;
 }
