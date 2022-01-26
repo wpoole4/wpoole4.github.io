@@ -4,12 +4,17 @@ body
   color: #ffd000;
   background-color: #b90009;
 }
-
+h2 {
+    text-align: center;
+}
 header
 {
   font-family: Impact, serif;
-  outline-color:black;
+  outline: black;
   outline-width: 4px;
   text-align: center;
   color: #ffd000;
+}
+footer {
+    text-align: center;
 }
