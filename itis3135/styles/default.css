@@ -10,8 +10,8 @@ h2 {
 header
 {
   font-family: Impact, serif;
-  outline: black;
-  outline-width: 4px;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 3px;
   text-align: center;
   color: #ffd000;
 }
