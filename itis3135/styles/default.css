@@ -14,7 +14,7 @@ header
 {
   font-family: Impact, serif;
   -webkit-text-stroke: black;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   text-align: center;
   color: #ffd000;
 }
