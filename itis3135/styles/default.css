@@ -31,6 +31,7 @@ table tr:nth-child(even){
 }
 form {
   text-align: center;
+  display: block;
   background-color:#ffd000;
   color: red;
   border: 2px black;
