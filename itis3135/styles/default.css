@@ -21,11 +21,13 @@ header
 td {
   border: black;
 }
-ul li:nth-child(odd){
-  color: rgb(255, 0, 0);
+table tr:nth-child(odd){
+  background-color: crimson;
+  color: #ffd000;
 }
-ul li:nth-child(even){
-  color: rgb(255, 50, 50);
+table tr:nth-child(even){
+  background-color:rgb(255, 0, 0);
+  color: #ffd000;
 }
 footer {
     text-align: center;
