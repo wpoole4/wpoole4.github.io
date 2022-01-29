@@ -29,6 +29,13 @@ table tr:nth-child(even){
   background-color:rgb(255, 0, 0);
   color: #ffd000;
 }
+form {
+  background-color:#ffd000;
+  color: red;
+  border: 2px black;
+  border-radius: 3px;
+  font-family: Tahoma, sans-serif;
+}
 footer {
     text-align: center;
 }
