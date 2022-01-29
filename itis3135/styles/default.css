@@ -36,6 +36,7 @@ form {
   border: 2px black;
   border-radius: 3px;
   font-family: Tahoma, sans-serif;
+  padding: 20px;
 }
 footer {
     text-align: center;
