@@ -22,12 +22,10 @@ td {
   border: black;
 }
 ul li:nth-child(odd){
-  background color: red;
-  color: #ffd000;
+  color: rgb(255, 0, 0);
 }
 ul li:nth-child(even){
-  background color: crimson;
-  color: #ffd000;
+  color: rgb(255, 50, 50);
 }
 footer {
     text-align: center;
