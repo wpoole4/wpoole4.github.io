@@ -18,6 +18,9 @@ header
   text-align: center;
   color: #ffd000;
 }
+td {
+  border: black;
+}
 ul li:nth-child(odd){
   background color: red;
   color: #ffd000;
