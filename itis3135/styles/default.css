@@ -18,6 +18,14 @@ header
   text-align: center;
   color: #ffd000;
 }
+ul li:nth-child(odd){
+  background color: red;
+  color: #ffd000;
+}
+ul li:nth-child(even){
+  background color: crimson;
+  color: #ffd000;
+}
 footer {
     text-align: center;
 }
