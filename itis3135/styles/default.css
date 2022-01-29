@@ -30,6 +30,7 @@ table tr:nth-child(even){
   color: #ffd000;
 }
 form {
+  text-align: center;
   background-color:#ffd000;
   color: red;
   border: 2px black;
