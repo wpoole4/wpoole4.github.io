@@ -44,3 +44,8 @@ form {
 footer {
     text-align: center;
 }
+
+a {
+  color: greenyellow;
+  text-decoration: none;
+}
