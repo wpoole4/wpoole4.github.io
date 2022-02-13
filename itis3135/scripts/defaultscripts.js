@@ -32,5 +32,5 @@ function calcParrotPrice(){
     let uInput4 = prompt("Parrots cost around 150 dollars, how many parrots would you like to purchase?");
     uInput4 = parseInt(uInput4);
     var total = uInput4 * 150;
-    alert("The total cost of " + uInput4 + " parrots will be " + total "!");
+    alert("The total cost of " + uInput4 + " parrots will be " + total + "!");
 }
