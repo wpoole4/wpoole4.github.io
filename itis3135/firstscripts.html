@@ -15,10 +15,10 @@
     </header>
     <main>
         <h2>First JavaScripts</h2>
-        <h3 id = "date" text-align = "left"><script>var date = new Date();
+        <h3 id = "date"><script>var date = new Date();
         document.getElementById("date").innerHTML = date.toUTCString();
         </script></h3>
-        <p> This is the page for JavaScript tests!  <button onclick = "scriptTest();">Test</button> <br>
+        <p id = "greetingmessage"> This is the page for JavaScript tests!  <button onclick = "scriptTest();">Test</button> <br>
             <form action="#">
             Enter your name: <input type = "text" id = "name"  placeholder = "Your Name" required><br>
             How're you feeling: <input type = "text" id = "feeling" placeholder = "How're you doing?" required> <br>
@@ -26,7 +26,6 @@
             <input onclick = "greeting();" type = "submit" value = "Submit">
 
         </p>
-        <p id = "greetingmessage"></p>
     </form>
     </main>
     <footer>
