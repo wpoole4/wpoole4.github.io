@@ -18,12 +18,12 @@
         <h3 id = "date"><script>var date = new Date();
         document.getElementById("date").innerHTML = date.toUTCString();
         </script></h3>
-        <p id = "greetingmessage"> This is the page for JavaScript tests!  <button onclick = "scriptTest();">Test</button> <br>
+        <p id = "greetingmessage" onsubmit = "greeting();"> This is the page for JavaScript tests!  <button onclick = "scriptTest();">Test</button> <br>
             <form action="#">
             Enter your name: <input type = "text" id = "name"  placeholder = "Your Name" required><br>
             How're you feeling: <input type = "text" id = "feeling" placeholder = "How're you doing?" required> <br>
             
-            <input onclick = "greeting();" type = "submit" value = "Submit">
+            <input type = "submit" value = "Submit">
 
         </p>
     </form>
