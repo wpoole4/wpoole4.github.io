@@ -34,3 +34,18 @@ function calcParrotPrice(){
     var total = uInput4 * 150;
     alert("The total cost of " + uInput4 + " parrots will be " + total + "!");
 }
+function averageParrotSize(){
+    let uInput5 = prompt("Weigh your parrots, we're going to average their size, how many parrots do you have?");
+    uInput5 = parseInt(uInput5);
+    const parrotWeight = [];
+    for (var i = 0; i < uInput5; i++){
+        parrotWeight[i] = prompt("Weigh your parrot");
+        parrotWeight[i] = parseInt(parrotWeight[i]);
+    }
+    var total = 0;
+    for (var j = 0; i < parrotWeight.length; j++){
+        total += parrotWeight[j];
+    }
+    let average = total / parrotWeight.length;
+    alert("Your parrots weigh an average of: " + average);
+}
