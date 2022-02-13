@@ -19,5 +19,11 @@ function addParrots(){
     let uInput2 = prompt("How many parrots do you want?");
     uInput2 = parseInt(uInput2);
     var sum = uInput1 + uInput2;
-    alert("You could potentially have " + sum + "parrots!");
+    alert("You could potentially have " + sum + " parrots!");
+}
+function birdCageFunction(){
+    let uInput3 = prompt("3 parrots can safely fit in a cage, how many parrots do you have?");
+    uInput3 = parseInt(uInput3);
+    var cages =  uInput3 / 3;
+    alert("You, at minimum, can have " + cages + " cages!");
 }
