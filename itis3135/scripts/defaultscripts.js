@@ -37,10 +37,10 @@ function calcParrotPrice(){
 function averageParrotSize(){
     let uInput5 = prompt("Weigh your parrots, we're going to average their size, how many parrots do you have?");
     uInput5 = parseInt(uInput5);
-    const parrotWeight = [];
+    var parrotWeight = new Array();
     for (var i = 0; i < uInput5; i++){
         parrotWeight[i] = prompt("Weigh your parrot");
-        parrotWeight[i] = parseFloat(parrotWeight[i]);
+        parrotWeight[i] = parseInt(parrotWeight[i]);
     }
     var total = 0;
     for (var j = 0; i < parrotWeight.length; j++){
