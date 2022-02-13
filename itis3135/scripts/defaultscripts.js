@@ -13,3 +13,12 @@ function parrotWord(){
     uInput = uInput.toString;
     alert("Parrot says: " + uInput);
 }
+
+function addParrots(){
+    let uInput1 = prompt("How many parrots do you have?")
+    uInput1 = parseInt(uInput1);
+    let uInput2 = prompt("How many parrots do you want?");
+    uInput2 = parseInt(uInput2);
+    var sum = uInput1 + uInput2;
+    alert("You could potentially have " + sum + "parrots!");
+}
