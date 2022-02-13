@@ -25,6 +25,12 @@ function birdCageFunction(){
     let uInput3 = prompt("3 parrots can safely fit in a cage, how many parrots do you have?");
     uInput3 = parseInt(uInput3);
     var cages =  uInput3 / 3;
-    Math.ceil(cages);
+    cages = Math.ceil(cages);
     alert("You, at minimum, can have " + cages + " cages!");
+}
+function calcParrotPrice(){
+    let uInput4 = prompt("Parrots cost around 150 dollars, how many parrots would you like to purchase?");
+    uInput4 = parseInt(uInput4);
+    var total = uInput4 * 150;
+    alert("The total cost of " + uInput4 + " parrots will be " + total "!");
 }
