@@ -10,7 +10,6 @@ function greeting(){
 
 function parrotWord(){
     let uInput = prompt("Type a word for a parrot to say");
-    uInput = uInput.toString;
     alert("Parrot says: " + uInput);
 }
 
