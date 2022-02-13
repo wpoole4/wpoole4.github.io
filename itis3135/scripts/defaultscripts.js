@@ -25,5 +25,6 @@ function birdCageFunction(){
     let uInput3 = prompt("3 parrots can safely fit in a cage, how many parrots do you have?");
     uInput3 = parseInt(uInput3);
     var cages =  uInput3 / 3;
+    Math.floor(cages);
     alert("You, at minimum, can have " + cages + " cages!");
 }
