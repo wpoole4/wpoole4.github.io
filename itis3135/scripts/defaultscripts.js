@@ -43,8 +43,8 @@ function averageParrotSize(){
         parrotWeight[i] = parseInt(parrotWeight[i]);
     }
     var total = 0;
-    for (var j = 0; i < parrotWeight.length; j++){
-        total += parrotWeight[j];
+    for (var j = 0; j < parrotWeight.length; j++){
+        total += parseInt(parrotWeight[j]);
     }
     var average = total / parrotWeight.length;
     alert("Your parrots weigh an average of: " + average);
