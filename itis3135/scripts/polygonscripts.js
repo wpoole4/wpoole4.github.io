@@ -1,4 +1,4 @@
-function getNumSides(){ //Function to take user input, ensure it's valid, and give a polygon
+function getSides(){ //Function to take user input, ensure it's valid, and give a polygon
     var polygonSides = prompt("The White Parrots would like your number... must be between 1-10, we will name your polygon");
     polygonSides = parseInt(userInput); //Prompt user and take input
     var validSides = validateEntry(polygonSides); //Validae the user input
@@ -41,6 +41,9 @@ function getShape(side){ //Function tot get the polygon name
     }
     if (side == 10){
         polygon = "Decagon";
+    }
+    if (side < -10 || side > 10){
+        getSides();
     }
     return polygon;
 }
