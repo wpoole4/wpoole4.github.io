@@ -1,8 +1,8 @@
 function getNumSides(){ //Function to take user input, ensure it's valid, and give a polygon
-    let polygonSides = prompt("The White Parrots would like your number... must be between 1-10, we will name your polygon");
+    var polygonSides = prompt("The White Parrots would like your number... must be between 1-10, we will name your polygon");
     polygonSides = parseInt(userInput); //Prompt user and take input
-    let validSides = validateEntry(polygonSides); //Validae the user input
-    let polygonName = getShape(validSides); //Get the polygon based off of the valid sides
+    var validSides = validateEntry(polygonSides); //Validae the user input
+    var polygonName = getShape(validSides); //Get the polygon based off of the valid sides
     alert(polygonName); //Put polygon in alert box
 }
 
