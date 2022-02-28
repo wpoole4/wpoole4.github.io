@@ -16,7 +16,7 @@ window.onload = function()
             .forEach(k => k.classList.remove('is-depressed'));
 
             if (!action){
-                if (disaplyedNum === '0' || previousKeyType === 'operator') {
+                if (disaplyedNum === '0' || previousKeyType === 'operator' || previousKeyType === 'calculate') {
                     display.textContent = keyContent;
                 } else {
                     display.textContent = displayedNum + keyContent;
@@ -32,7 +32,7 @@ window.onload = function()
                     const operator = calculator.dataset.operator;
                     const secondValue = displayedNum;
 
-                    if (firstValue && operator && previousKeyType !== 'operator'){
+                    if (firstValue && operator && previousKeyType !== 'operator' || previousKeyType !== 'calculate'){
                         const calcValue = calculate(firstValue, operator, secondValue);
                         display.textContent = calcValue;
 
@@ -49,15 +49,28 @@ window.onload = function()
             if (action === 'decimal'){
                 if (!displayedNum.includes('.')) {
                 display.textContent = displayedNum + '.';
-            } else if (previousKeyType === 'operator') {
+            } else if (previousKeyType === 'operator' || previousKeyType === 'calculate') {
                 display.textContent = "0.";
             }
                 calculator.dataset.previousKey = 'decimal';
                 console.log('decimal key!');
             }
             if (action === 'clear') {
+               if (key.textContent === 'AC'){
+                   calculator.dataset.firstValue = '';
+                   calculator.dataset.modValue = '';
+                   calculator.dataset.operator = '';
+                   calculator.dataset.previousKeyType = '';
+               } else {
+                key.textCotent = 'AC';
+                }
+                display.textContent = 0;
                 calculator.dataset.previousKeyType = 'clear';
                 console.log('clear key!');
+            }
+            if (action !== 'clear'){
+                const clearButton = calculator.querySelector('[data-action=clear]');
+                clearButton.textContent = 'CE';
             }
             if (action === 'calculate'){
                 let firstValue = calculator.dataset.firstValue;
@@ -66,6 +79,7 @@ window.onload = function()
                 if (firstValue){
                     if (previousKeyType === 'calculate'){
                         firstValue = displayedNum;
+                        secondValue = calculator.dataset.modValue;
                     }
                     display.textContent = calculate(firstValue, operator, secondValue);
                 }
