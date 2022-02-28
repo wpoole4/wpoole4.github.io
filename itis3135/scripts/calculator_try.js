@@ -1,4 +1,4 @@
 function showNum(num){
     let number = num;
-    document.getElementById("result").innerHTML = number;
+    document.getElementById("result").value += number;
 }
