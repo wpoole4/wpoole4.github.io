@@ -49,3 +49,7 @@ a {
   color: greenyellow;
   text-decoration: none;
 }
+button{
+  color: red;
+  background-color: #ffd000;
+}
