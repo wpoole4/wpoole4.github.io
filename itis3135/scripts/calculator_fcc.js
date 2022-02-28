@@ -16,7 +16,7 @@ window.onload = function()
             .forEach(k => k.classList.remove('is-depressed'));
 
             if (!action){
-                if (disaplyedNum === '0' || previousKeyType === 'operator' || previousKeyType === 'calculate') {
+                if (displayedNum === '0' || previousKeyType === 'operator' || previousKeyType === 'calculate') {
                     display.textContent = keyContent;
                 } else {
                     display.textContent = displayedNum + keyContent;
