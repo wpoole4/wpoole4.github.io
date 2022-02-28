@@ -1,12 +1,4 @@
-function addNumbers(){
-
-}
-function subtractNumbers(){
-
-}
-function multiplyNumbers(){
-
-}
-function divideNumbers(){
-    
+function showNum(num){
+    let number = num.value;
+    document.getElementById("result").innerHTML = number;
 }
