@@ -32,7 +32,7 @@ window.onload = function()
                     const operator = calculator.dataset.operator;
                     const secondValue = displayedNum;
 
-                    if (firstValue && operator && previousKeyType !== 'operator' || previousKeyType !== 'calculate'){
+                    if (firstValue && operator && previousKeyType !== 'operator' && previousKeyType !== 'calculate'){
                         const calcValue = calculate(firstValue, operator, secondValue);
                         display.textContent = calcValue;
 
@@ -42,7 +42,6 @@ window.onload = function()
                     }
                     key.classList.add('is-depressed');
                     calculator.dataset.previousKeyType = 'operator';
-                    calculator.dataset.firstValue = displayedNum;
                     calculator.dataset.operator = action;
                     console.log('operator key!');
                 }
