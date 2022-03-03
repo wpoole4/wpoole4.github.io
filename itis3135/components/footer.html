@@ -4,7 +4,13 @@
         <a href = "https://wpoole4.github.io/itis3135/">Github.io | </a><a href = "https://www.freecodecamp.org/wpoole4">FreeCodeCamp | </a>
         <a href = "https://www.linkedin.com/in/will-poole-992a5722b">Linkedin</a> <br>
         Designed by <a href = "poole-inc.com/">Poole Inc. &copy;2022.</a> <br>
-       <a href = "https://validator.w3.org/nu/?doc=https%3A%2F%2Fwpoole4.github.io%2F"><img src = "images/button_validation_html5.png" alt = "HTML5 Validation"></a>
-       <a href = "https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwpoole4.github.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
-        <img src = "images/button_validation_css.png"></a>
+        <a href="https://validator.w3.org/check?uri=referer" id = "validation_link_html">
+            <img src="images/button-validation-html5.png" width="88" height="31" alt="Validate webpage HTML.">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer" id = "validation_css_html">
+            <img src="images/button-validation-css.png" width="88" height="31" alt="Validate webpage CSS.">
+        </a>
+        <script>document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+            document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+            </script>
     </footer>
