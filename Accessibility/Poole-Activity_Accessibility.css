@@ -96,8 +96,8 @@ abbr {
 }
 
 input[type=submit]{
-  background-color: maroon;
-  color: gold;
+  background-color: rgb(255, 94, 0);
+  color :powderblue;
 }
 
 
