@@ -95,7 +95,7 @@ abbr {
   cursor: pointer;
 }
 
-.form-submit-button{
+input[type=submit]{
   background-color: maroon;
   color: gold;
 }
