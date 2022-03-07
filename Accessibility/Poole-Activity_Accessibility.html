@@ -62,10 +62,10 @@
      <h2>Enter your name and phone number to win a gift!</h2>
     <form action = "#">
       <label for = "name">Enter your name: </label><br>
-      <textarea id = "name"  autocomplete = "First and Last Name" required ></textarea> <br>
+      <textarea id = "name"  autocomplete = "First and Last Name" aria-required = "true"></textarea> <br>
 
       <label for = "number">Enter phone number: </label> <br>
-      <textarea id = "number" autocomplete = "Phone #" required aria-invalid = "true"></textarea> <br>
+      <textarea id = "number" autocomplete = "Phone #" aria-required = "true" aria-invalid = "true"></textarea> <br>
 
       <input type = "submit" value = "Submit" action = "#">
 
