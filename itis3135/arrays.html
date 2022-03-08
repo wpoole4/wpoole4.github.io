@@ -3,19 +3,37 @@
     <head>
     <meta charset = "utf-8">
     <title> 
-    William L Poole | ITIS 3135 | White Parrot Home
+    William L Poole | ITIS 3135 | White Parrot Arrays
     </title>
     <link href = "styles/default.css" type = "text/css" rel = "stylesheet">
     </head>
 <body>
     <div data-include="components/header.html"></div>
     <main>
-        <h2>Homepage</h2>
-        <p> Welcome to Will P's homepage for ITSC 3135! What you are looking at is an early website from a student learning HTML/Web Design.
-            I am looking forward to learning more throughout the semester about web design!
+        <h2>Array Assignment</h2>
+        <p> 
+            <label for = "employees">Employees: </label>
+            <select id = "employees" name = "employees">
+                <option value = "Billy Joel">Billy Joel</option>
+                <option value = "Alice Cooper">Alice Cooper</option>
+                <option value = "Madonna">Madonna</option>
+                <option value = "Elton John">Elton John</option>
+                <option value = "Mary J Blige">Mary J Blige</option>
+                <option value = "Michael Jackson">Michael Jackson</option>
+                <option value = "John Lennon">John Lennon</option>
+            </select> <br>
+            <label for = "salary">Salary: </label>
+            <input type = "number" id = "salary" required> <br>
+
+            <button onclick = "addSalary()" id = "addSalary">Add Salary</button>
+            <button onclick = "displayResults()" id = "displayResults">Display Results</button>
+            <button onclick = "displaySalary()" id = "displaySalary">Display Salary</button>
+
+            <div id ="results"></div> <br>
         </p>
     </main>
     <div data-include="components/footer.html"></div>
     <script src = "scripts/HTMLInclude.js"></script>
+    <script src = "scripts/arrays.js"></script>
 </body>
 </html>
