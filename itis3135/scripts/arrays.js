@@ -5,7 +5,7 @@ function addSalary(){
     var selectedEmployee = document.getElementById("employees").value;
     var inputSalary = parseFloat(document.getElementById("salary").value);
 
-    if (inputSalary < 0){
+    if (inputSalary < 0 || isNaN(inputSalary)){
         alert("Please enter a posiive number for a salary.");
     } else {
         people.push(selectedEmployee);
