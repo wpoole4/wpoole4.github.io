@@ -6,7 +6,7 @@ function addSalary(){
     var inputSalary = parseFloat(document.getElementById("salary").value);
 
     if (inputSalary < 0 || isNaN(inputSalary)){
-        alert("Please enter a posiive number for a salary.");
+        alert("Please enter a positive number for a salary.");
     } else {
         people.push(selectedEmployee);
         salaries.push(inputSalary);
@@ -30,6 +30,8 @@ for (i = 0; i < salaries.length; i++){
         highestSalary = salaries[i];
         employeeHighestSalary = people[i];
     }
+let headingMessage = "Results: "
+document.getElementById("resultsHeading").innerHTML = headingMessage;
 let message = "The average salary is $" + average + " and the highest salary is " + employeeHighestSalary + " at $" + highestSalary;
 document.getElementById("results").innerHTML = message;
 }
