@@ -5,6 +5,11 @@ function addSalary(){
     var selectedEmployee = document.getElementById("employees").value;
     var inputSalary = parseFloat(document.getElementById("salary").value);
 
+    for (i = 0; i < people.length; i++){
+        if (selectedEmployee == people[i]){
+            alert("Choose a different employee, you've already added this one!");
+        }
+    }
     if (inputSalary < 0 || isNaN(inputSalary)){
         alert("Please enter a positive number for a salary.");
     } else {
