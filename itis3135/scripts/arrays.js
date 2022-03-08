@@ -2,8 +2,8 @@ const people = [];
 const salaries = [];
 
 function addSalary(){
-    var selectedEmployee = document.getElementById("employees").value;
-    var inputSalary = parseFloat(document.getElementById("salary").value);
+    var selectedEmployee = document.getElementById('employees').value;
+    var inputSalary = parseFloat(document.getElementById('salary').value);
 
     for (i = 0; i < people.length; i++){
         if (selectedEmployee == people[i]){
@@ -21,8 +21,8 @@ function addSalary(){
 function displayResults(){
 var sum = 0;
 var average;
-var highestSalary;
-var employeeHighestSalary;
+var highestSalary = 0;
+var employeeHighestSalary = "";
 
 for (i = 0;  i < salaries.length; i++){
     sum += salaries[i];
@@ -35,10 +35,10 @@ for (i = 0; i < salaries.length; i++){
         highestSalary = salaries[i];
         employeeHighestSalary = people[i];
     }
-let headingMessage = "Results: "
+let headingMessage = "Results"
 document.getElementById("resultsHeading").innerHTML = headingMessage;
 let message = "The average salary is $" + average + " and the highest salary is " + employeeHighestSalary + " at $" + highestSalary;
-document.getElementById("results").innerHTML = message;
+document.getElementById("resultMessage").innerHTML = message;
 }
 
 function displaySalary(){
