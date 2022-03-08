@@ -1,5 +1,5 @@
-const people = {};
-const salaries = {};
+const people = [];
+const salaries = [];
 
 function addSalary(){
     var selectedEmployee = document.getElementById("employees").value;
