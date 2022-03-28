@@ -53,3 +53,7 @@ a {
   color: red;
   background-color: #ffd000;
 }
+
+#slides img{
+  display: none;
+}
