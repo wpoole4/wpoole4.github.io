@@ -54,8 +54,8 @@ a {
   background-color: #ffd000;
 }
 
-#slides img{
+#slides img {
   align-items: center;
   display: none;
-  size: 250px;
+  height: 250px;
 }
