@@ -55,5 +55,7 @@ a {
 }
 
 #slides img{
+  text-align: center;
   display: none;
+  size: 250px;
 }
