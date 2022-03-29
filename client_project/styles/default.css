@@ -40,7 +40,9 @@ footer {
 }
 .subnavigation .subnavbutton {
   font-size: 15px;
-  background-color: aquamarine;
+  outline: none;
+  color: aquamarine;
+  margin: 0;
 }
 
 .navigation a:hover, .subnavigation:hover .subnavbutton {
@@ -52,9 +54,20 @@ footer {
   width: 100%;
   text-decoration: none;
   color: aquamarine;
+  display: none;
+  position: absolute;
+  left: 0;
   z-index: 1;
 }
-
+.subnavigation-content a{
+  float: left;
+  color: aquamarine;
+  text-decoration: none;
+}
+.subnavigation-content a:hover {
+  background-color: purple;
+  color: aquamarine;
+}
 .subnavigation:hover .subnavigation-content {
   display: block;
 }
