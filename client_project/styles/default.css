@@ -51,7 +51,7 @@ footer {
 
 .navigation a:hover, .subnavigation:hover .subnavbutton {
   background-color:purple;
-  padding: 15px 15px;
+  padding: 16px 16px;
 }
 
 .subnavigation-content {
