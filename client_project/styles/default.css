@@ -42,6 +42,7 @@ footer {
   font-size: 15px;
   outline: none;
   color: aquamarine;
+  background-color: rgb(27, 27, 27);
   margin: 0;
 }
 
@@ -54,6 +55,7 @@ footer {
   width: 100%;
   text-decoration: none;
   color: aquamarine;
+  background-color: rgb(27, 27, 27);
   display: none;
   position: absolute;
   left: 0;
