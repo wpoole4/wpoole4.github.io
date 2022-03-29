@@ -22,35 +22,35 @@ footer {
     text-align: center;
 }
 
-.navbar{
+.navigation{
   overflow: hidden;
   background-color:rgb(27, 27, 27);
 }
-.navbar a{
+.navigation a{
   float: left;
   font-size: 15px;
   color: aquamarine;
   text-align: center;
 }
-.subnav{
+.subnavigation{
   float: left;
   overflow: hidden;
 }
-.subnav .subnavbtn {
+.subnavigation .subnavbutton {
   font-size: 15px;
   background-color: aquamarine;
 }
 
-.navbar a:hover, .subnav:hover .subnavbtn {
+.navigation a:hover, .subnavigation:hover .subnavbutton {
   background-color:purple;
 }
 
-.subnav-content {
+.subnavigation-content {
   float: left;
   text-decoration: none;
   color: aquamarine;
 }
 
-.subnav:hover .subnav-content {
+.subnavigation:hover .subnavigation-content {
   display: block;
 }
