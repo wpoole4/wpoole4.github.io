@@ -29,7 +29,7 @@ footer {
 .navigation a{
   float: left;
   font-size: 15px;
-  color: aquamarine;
+  color: white;
   text-align: center;
   text-decoration: none;
   padding: 15px 15px;
@@ -41,8 +41,10 @@ footer {
 .subnavigation .subnavbutton {
   font-size: 15px;
   outline: none;
-  color: aquamarine;
+  color: white;
   background-color: rgb(27, 27, 27);
+  padding: 15px 15px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   margin: 0;
 }
 
@@ -54,7 +56,7 @@ footer {
   float: left;
   width: 100%;
   text-decoration: none;
-  color: aquamarine;
+  color: white;
   background-color: rgb(27, 27, 27);
   display: none;
   position: absolute;
@@ -63,7 +65,7 @@ footer {
 }
 .subnavigation-content a{
   float: left;
-  color: aquamarine;
+  color: white;
   text-decoration: none;
 }
 .subnavigation-content a:hover {
