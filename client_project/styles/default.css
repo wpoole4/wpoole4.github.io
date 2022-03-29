@@ -31,6 +31,8 @@ footer {
   font-size: 15px;
   color: aquamarine;
   text-align: center;
+  text-decoration: none;
+  padding: 15px 15px;
 }
 .subnavigation{
   float: left;
@@ -47,8 +49,10 @@ footer {
 
 .subnavigation-content {
   float: left;
+  width: 100%;
   text-decoration: none;
   color: aquamarine;
+  z-index: 1;
 }
 
 .subnavigation:hover .subnavigation-content {
