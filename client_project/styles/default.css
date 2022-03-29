@@ -42,6 +42,7 @@ footer {
 .subnavigation .subnavbutton {
   font-size: 15px;
   outline: none;
+  border: none;
   color: white;
   background-color: rgb(27, 27, 27);
   padding: 16px 16px;
