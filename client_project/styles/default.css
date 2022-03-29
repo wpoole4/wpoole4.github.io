@@ -28,7 +28,7 @@ footer {
 }
 .navigation a{
   float: left;
-  font-size: 15px;
+  font-size: 12px;
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
@@ -40,7 +40,7 @@ footer {
   overflow: hidden;
 }
 .subnavigation .subnavbutton {
-  font-size: 15px;
+  font-size: 12px;
   outline: none;
   border: none;
   color: white;
