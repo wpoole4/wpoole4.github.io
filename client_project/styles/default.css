@@ -1,7 +1,7 @@
 body 
 {
   font-family: Tahoma, sans-serif;
-  color: royalblue;
+  color: aquamarine;
   background-color: rgb(255, 14, 135);
 }
 h2 {
@@ -16,7 +16,7 @@ header
   -webkit-text-stroke: black;
   -webkit-text-stroke-width: 0.5px;
   text-align: center;
-  color: royalblue;
+  color: aquamarine;
 }
 footer {
     text-align: center;
