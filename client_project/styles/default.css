@@ -24,9 +24,33 @@ footer {
 
 .navbar{
   overflow: hidden;
+  background-color:rgb(27, 27, 27);
 }
-
+.navbar a{
+  float: left;
+  font-size: 15px;
+  color: aquamarine;
+  text-align: center;
+}
 .subnav{
   float: left;
   overflow: hidden;
+}
+.subnav .subnavbtn {
+  font-size: 15px;
+  background-color: aquamarine;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color:purple;
+}
+
+.subnav-content {
+  float: left;
+  text-decoration: none;
+  color: aquamarine;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
 }
