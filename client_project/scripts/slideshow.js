@@ -22,7 +22,7 @@ $(document).ready(function() {
 })
 
 //start slide show
-var timer1 = setInterval(runSlideShow, 3000);
+var timer1 = setInterval(runSlideShow, 7000);
 
 //starting and stopping the slideshow
 
@@ -31,6 +31,6 @@ $("#slide").toggle(
         clearInterval(timer1);
     },
     function() {
-        timer1 = setInterval(runSlideShow, 3000);
+        timer1 = setInterval(runSlideShow, 7000);
     }
 )
