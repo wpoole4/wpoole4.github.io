@@ -22,6 +22,10 @@ footer {
     text-align: center;
 }
 
+img{
+  width: 300px;
+  height: auto;
+}
 .navigation{
   overflow: hidden;
   background-color:rgb(27, 27, 27);
