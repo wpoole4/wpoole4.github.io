@@ -87,7 +87,7 @@ footer {
 
 .column{
   float: left;
-  width: 33%;
+  width: 20%;
   padding: 5px;
 }
 
@@ -99,6 +99,5 @@ footer {
 
 #slides img {
   align-items: center;
-  display: none;
-  width: 300px;
+  width: 400px;
 }
