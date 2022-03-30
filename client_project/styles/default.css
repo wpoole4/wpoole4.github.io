@@ -96,3 +96,10 @@ footer {
   clear: both;
   display: table;
 }
+
+#slides img {
+  align-items: center;
+  display: none;
+  width: 300px;
+  height: auto;
+}
