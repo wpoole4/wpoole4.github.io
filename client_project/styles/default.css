@@ -2,7 +2,7 @@ body
 {
   font-family: Tahoma, sans-serif;
   color: aquamarine;
-  background-color: rgb(255, 14, 135);
+  background-color: rgb(172, 0, 86);
 }
 h2 {
     text-align: center;
@@ -16,7 +16,7 @@ header
   -webkit-text-stroke: black;
   -webkit-text-stroke-width: 0.5px;
   text-align: center;
-  color: aquamarine;
+  color: rgb(149, 255, 220);
 }
 footer {
     text-align: center;
@@ -30,7 +30,7 @@ footer {
   float: left;
   font-size: 12px;
   color: white;
-  font-family: Impact, serif;
+  font-family: monospace, sans-serif;
   text-align: center;
   text-decoration: none;
   padding: 16px 16px;
@@ -46,7 +46,7 @@ footer {
   color: white;
   background-color: rgb(27, 27, 27);
   padding: 16px 16px;
-  font-family: Impact, serif;
+  font-family: monospace, sans-serif;
   margin: 0;
 }
 
@@ -69,12 +69,12 @@ footer {
 .subnavigation-content a{
   float: left;
   color: white;
-  font-family: Impact, serif;
+  font-family: monospace, sans-serif;
   text-decoration: none;
 }
 .subnavigation-content a:hover {
   background-color: purple;
-  color: aquamarine;
+  color: rgb(149, 255, 220);
 }
 .subnavigation:hover .subnavigation-content {
   display: block;
