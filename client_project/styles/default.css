@@ -99,5 +99,6 @@ footer {
 
 #slides img {
   align-items: center;
+  display: none;
   width: 400px;
 }
