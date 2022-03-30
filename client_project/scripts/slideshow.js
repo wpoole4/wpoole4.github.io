@@ -5,7 +5,7 @@ $(document).ready(function() {
     // start slide show
     setInterval(
         function() {
-            $("#slide").fadeOut(5000,
+            $("#slide").fadeOut(3000,
                 function() {
                     if (nextSlide.next().length == 0) {
                         nextSlide = $("#slides img:first-child");
@@ -15,14 +15,14 @@ $(document).ready(function() {
                     }
                     nextSlideSource = nextSlide.attr("src");
                     nextCaption = nextSlide.attr("alt");
-                    $("#slide").attr("src",nextSlideSource).fadeIn(1000);
+                    $("#slide").attr("src",nextSlideSource).fadeIn(3000);
                 })
         },
     3000);
 })
 
 //start slide show
-var timer1 = setInterval(runSlideShow, 3000);
+var timer1 = setInterval(runSlideShow, 5000);
 
 //starting and stopping the slideshow
 
@@ -31,6 +31,6 @@ $("#slide").toggle(
         clearInterval(timer1);
     },
     function() {
-        timer1 = setInterval(runSlideShow, 3000);
+        timer1 = setInterval(runSlideShow, 5000);
     }
 )
