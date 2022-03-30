@@ -30,7 +30,7 @@ footer {
   float: left;
   font-size: 12px;
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, serif;
   text-align: center;
   text-decoration: none;
   padding: 16px 16px;
@@ -46,7 +46,7 @@ footer {
   color: white;
   background-color: rgb(27, 27, 27);
   padding: 16px 16px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, serif;
   margin: 0;
 }
 
@@ -69,7 +69,7 @@ footer {
 .subnavigation-content a{
   float: left;
   color: white;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, serif;
   text-decoration: none;
 }
 .subnavigation-content a:hover {
