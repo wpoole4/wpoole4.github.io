@@ -97,13 +97,9 @@ footer {
   align-items: center;
   display: none;
   width: 400px;
+  margin: 0px auto;
 }
 
 .slides{
   text-align: center;
-}
-
-.slides_container{
-  width: 100%;
-  margin: 0px auto;
 }
