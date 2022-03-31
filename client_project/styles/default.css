@@ -103,7 +103,11 @@ footer {
   width: 400px;
 }
 
-.slides {
+.slides{
   text-align: center;
+}
+
+.slides_container div {
   margin: 0px auto;
+  text-align: center;
 }
