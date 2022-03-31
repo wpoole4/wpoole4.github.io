@@ -101,9 +101,9 @@ footer {
   align-items: center;
   display: none;
   width: 400px;
-  margin: 0px auto;
 }
 
 .slides {
   text-align: center;
+  margin: 0px auto;
 }
