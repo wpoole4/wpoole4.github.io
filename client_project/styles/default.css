@@ -105,8 +105,5 @@ footer {
 
 .slides_container{
   width: 100%;
-}
-.slides_container div {
   margin: 0px auto;
-  text-align: center;
 }
