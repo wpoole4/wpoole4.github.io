@@ -98,8 +98,11 @@ footer {
 }
 
 #slides img {
-  float: center;
   align-items: center;
   display: none;
   width: 400px;
+}
+
+.slides {
+  float: center;
 }
