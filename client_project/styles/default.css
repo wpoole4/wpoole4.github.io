@@ -106,5 +106,9 @@ footer {
 
 .poshlink{
   float: right;
-  
+
+}
+
+a {
+  color:crimson;
 }
