@@ -11,7 +11,7 @@ $(document).ready(function() {
     let images = new Image();
     images.src = $(this).attr("href");
        });
-       $("#images_list a").click(function(evt) {
+       $("#image_list a").click(function(evt) {
            let imgUrl = $(this).attr("href");
 
            $("#image").fadeOut(500, function() {
