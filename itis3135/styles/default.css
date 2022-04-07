@@ -59,3 +59,8 @@ a {
   display: none;
   height: 250px;
 }
+
+li img{
+  max-width: 100px;
+  height: auto;
+}
