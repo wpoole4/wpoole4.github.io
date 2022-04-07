@@ -11,7 +11,7 @@ $(document).ready(function() {
     let images = new Image();
     images.src = $(this).attr("href");
        });
-       $("#images_list a").click(function(event) {
+       $("#images_list a").click(function(evt) {
            let imgUrl = $(this).attr("href");
 
            $("#image").fadeOut(500, function() {
@@ -22,7 +22,7 @@ $(document).ready(function() {
            });
 
            // cancel the default action of each link
-           event.preventDefault();
+           evt.preventDefault();
        });
 // move the focus to the first link
 $("li:first-child a").focus();
