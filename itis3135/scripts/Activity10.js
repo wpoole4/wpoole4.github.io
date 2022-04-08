@@ -13,6 +13,7 @@ $(document).ready(function() {
        });
        $("#image_list a").click(function(event) {
            let imgUrl = $(this).attr("href");
+           let imgCaption = $(this).attr("title");
 
            $("#image").fadeOut(500, function() {
                $("#image").attr("src", imgUrl).fadeIn(500);
