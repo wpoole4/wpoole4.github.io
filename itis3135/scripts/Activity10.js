@@ -18,7 +18,7 @@ $(document).ready(function() {
            $("#image").fadeOut(500, function() {
                $("#image").attr("src", imgUrl).fadeIn(500);
            });
-           $("#caption").fadeout(500, function(){
+           $("#caption").fadeOut(500, function(){
                $("#caption").text(imgCaption).fadeIn(500);
            });
 
