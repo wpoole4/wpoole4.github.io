@@ -2,7 +2,7 @@
 $(document).ready(function() {
     $("#accordion").accordion( {
         active: false,
-        heightStyle: 'content',
+        heightStyle: "content",
         collapsible: true
 
     });
