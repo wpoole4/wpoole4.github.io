@@ -1,14 +1,14 @@
 $(document).ready(function() {
     $("#nav_list li").click(function (){
         let name = $(this).children("a").attr("title");
-        $.get(name + ".json")
+        let fileName = $.get(name + ".json");
         $.ajax( {
             type: "get",
-            url: file,
+            url: fileName,
             dataType: "json",
-            success: function(file){
+            success: function(fileName){
 
-            let data = $.parseJSON(file);
+            let data = $.parseJSON(fileName);
             $("main > h1").html(data.speakers[0].title);
             $("main > h2").html(data.speakers[0].month);
             $("main > h3").html(data.speakers[0].speaker);
