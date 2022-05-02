@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $("#nav_list li").click(function (){
         let name = $(this).children("a").attr("title");
-        let fileName = $.get(name + ".json");
+        let fileName = name + ".json";
         $.ajax( {
             type: "get",
             url: fileName,
