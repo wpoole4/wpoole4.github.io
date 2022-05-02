@@ -3,9 +3,9 @@ $(document).ready(function() {
         let name = $(this).children("a").attr("title");
         $.get(name + ".json")
         $.ajax( {
-
+            type: "get",
             url: file,
-            dataType: "Text",
+            dataType: "json",
             success: function(file){
 
             
