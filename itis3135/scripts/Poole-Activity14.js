@@ -8,7 +8,7 @@ $(document).ready(function() {
             dataType: "json",
             success: function(fileName){
 
-            let data = $.parseJSON(fileName);
+            let data = data['speakers'][0];
             $("main > h1").html(data.speakers[0].title);
             $("main > h2").html(data.speakers[0].month);
             $("main > h3").html(data.speakers[0].speaker);
