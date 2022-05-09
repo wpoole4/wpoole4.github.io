@@ -8,8 +8,8 @@ $(document).ready(function() {
             dataType: "json",
             success: function(data){
 
-            $("main > h2").html(data.accessories[0].name);
-            $("main > p").html(data.accessories[0].bio);
+            $("aside > h2").html(data.accessories[0].name);
+            $("aside > p").html(data.accessories[0].bio);
         }
         });
     });
