@@ -11,7 +11,7 @@ h3 {
     text-align: center;
 }
 h4 {
-  text-align: center;
+  text-align: left;
 }
 header
 {
@@ -129,7 +129,7 @@ a {
 
 #nav_list ul { 
 	list-style: none;
-  margin: 0 auto;
+	margin-left: 0;
 }
 
 #nav_list li { 
@@ -145,9 +145,5 @@ a {
 }
 
 #accessory{
-  text-align: center;
-}
-
-aside p {
   text-align: center;
 }
