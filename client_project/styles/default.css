@@ -109,8 +109,9 @@ footer {
 }
 
 .poshlink{
-  float: right;
-  margin: auto;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
 
 }
 
