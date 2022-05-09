@@ -8,7 +8,7 @@ $(document).ready(function() {
             dataType: "json",
             success: function(data){
 
-            $("aside > h3").html(data.accessories[0].name);
+            $("aside > h4").html(data.accessories[0].name);
             $("aside > p").html(data.accessories[0].bio);
         }
         });
