@@ -147,3 +147,7 @@ a {
 #accessory{
   text-align: center;
 }
+
+aside p {
+  text-align: center;
+}
