@@ -117,6 +117,8 @@ a {
   color:black;
 }
 .bx-wrapper {
+  text-align: center;
+  margin: center;
 	margin-bottom: 20px;
 }
 #id_pager {
